@@ -12,6 +12,7 @@ Gorman](https://www.uaf.edu/cfos/people/faculty/detail/kristen-gorman.php)
 and the [Palmer Station, AntarcticaLTER](https://pallter.marine.rutgers.edu/), a member of the [Long Term
 Ecological Research Network](https://lternet.edu/).
 
+
 ## Goals
 - To accurately segment penguins into distinct clusters
 - To develop skills in data preprocessing, feature selection, and the application of unsupervised learning techniques
@@ -25,6 +26,9 @@ Ecological Research Network](https://lternet.edu/).
 
 ## Imports
 Use pandas for the DataFrame data structure. It allows us to investigate CSV files amongst amongst other features!
+
+## Data preparation
+The purpose of this project is to assess the performance of a supervised machine learning classifier in categorizing the three species of Pygoscelis penguins based on their body measurements. Consequently, categorical features that appear to contribute little to the model's effectiveness will be excluded.
 
 ## Data modeling
 Changing the data type of DataFrames is typically driven by the need for memory efficiency, faster calculations, and suitability for different operations or analytical methods. When making decisions about converting data types, you should consider your specific analysis requirements, the nature of the data in each column, and your overall data processing strategy.
@@ -46,8 +50,36 @@ Memory Efficiency: The category dtype stores the data using integers and maintai
 Performance Improvement: Operations like groupby, sort, and other vectorized operations on categorical data are faster than operations on string data.
 Semantic Clarity: Converting to category makes it clear to anyone reading the code that the column contains categorical data, which can only take a limited set of values.
 
+## Bill dimensions Tables
+Explore how the mean values vary by each group. The table outputs from this function will assist in gaining a deeper understanding of the penguin dataset.
+
+| Species   | Sex    | Bill Length (mm) | Bill Depth (mm) |
+|-----------|--------|:----------------:|:---------------:|
+| Adelie    | FEMALE |       37.26       |       17.62      |
+| Adelie    | MALE   |       40.39       |       19.07      |
+| Chinstrap | FEMALE |       46.57       |       17.59      |
+| Chinstrap | MALE   |       51.09       |       19.25      |
+| Gentoo    | FEMALE |       45.56       |       14.24      |
+| Gentoo    | MALE   |       49.47       |       15.72      |
+
+In the penguin data, the culmen—referred to as the bill—is the upper ridge of a bird's bill. To make the data more intuitive, culmen length and depth are renamed as variables bill_length_mm and bill_depth_mm.
+For this data, the bill length and depth are measured as follows:
+
+<img src="https://allisonhorst.github.io/palmerpenguins/reference/figures/culmen_depth.png" style="width: 60%;">
+
+
+### Discussion of the PivotTable
+Overall, Adelie has the lowest Bill Length regardless of gender, and its length is the most varied among the three species. The chin chinstrap has the longest culmen length when compared within each gender. However, it is important to note that the length of the Chinstrap and Gentoo culmen do not differ much from each other.
+On the other hand, Gentoo has the lowest Bill Depth regardless of gender, and its depth is the most varied among the three species. Chinstrap and Adelie have very similar culmen depths, so the data does not provide valuable insight into which species has a greater culmen depth.
+In general, male Bill is larger in both length and depth.
+
+
+## Plots
+
+
 ## Resourse reference
 
 [Pandas Category Data Type](https://pbpython.com/pandas_dtypes_cat.html)
 
 [Data cleaning with Pandas](https://www.kdnuggets.com/data-cleaning-with-pandas)
+
