@@ -96,6 +96,27 @@ This data not only enriches our understanding of the physical and perhaps behavi
 
 ## Plots
 
+## Correlation Heatmap
+
+The correlation matrix quantifies the relationship among continuous variables in the dataset, which varies between -1 and 1. Values above zero denote a direct correlation, while values below zero indicate an inverse relationship. A correlation value near 1 or -1 indicates a stronger relationship.
+
+<img src="https://github.com/ShamansIT/Data_Analytics_Research_Project/blob/main/heatmap.png?raw=true" style="width: 60%;">
+
+The correlation matrix quantifies the relationship among continuous variables in the dataset, which varies between -1 and 1. Values above zero denote a direct correlation, while values below zero indicate an inverse relationship. A correlation value near 1 or -1 indicates a stronger relationship.
+
+Culmen Length & Flipper Length (r=0.65): This indicates a relatively strong direct correlation between the length of the bill and the length of the flippers, showing that penguins with longer bills tend to also have longer flippers.
+
+Culmen Length & Body Mass (r=0.59): This relationship is also moderately strong and positive, showing that bigger penguins usually have longer bills.
+
+Flipper Length & Body Mass (r=0.87): This strong positive correlation suggests that the length of the flippers can reliably predict the body mass of the penguin, or the other way around.
+
+Culmen Depth & Body Mass (r=-0.47): A moderate inverse correlation exists here, indicating that penguins with deeper bills tend to weigh less, though this relationship is not as pronounced as that between flipper length and body mass.
+
+Culmen Length & Culmen Depth (r=-0.23): A weak inverse correlation, suggesting a slight but insignificant relationship.
+
+Culmen Depth & Flipper Length (r=0.49): Here, a moderate inverse correlation suggests that deeper bills might be associated with shorter flippers, though other factors might influence this relationship.
+
+To conclude, the length of the flippers demonstrates the strongest correlations with other measurements, especially body mass, making it an essential indicator for predicting the physical attributes of penguins. Conversely, the length and depth of the bill exhibit moderate to weak correlations with other physical characteristics, highlighting their role in identifying different physical traits of penguins.
 
 ## Resourse reference
 
@@ -104,4 +125,6 @@ This data not only enriches our understanding of the physical and perhaps behavi
 [Data cleaning with Pandas](https://www.kdnuggets.com/data-cleaning-with-pandas)
 
 [Introduction to Regression Analysis](https://www.kellerbiostat.com/introregression/introduction-and-example-datasets#fig:bb-scatter-lspeed-hitdist)
+
+[seaborn.heatmap](https://seaborn.pydata.org/generated/seaborn.heatmap.html)
 
