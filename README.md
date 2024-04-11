@@ -132,3 +132,5 @@ To conclude, the length of the flippers demonstrates the strongest correlations 
 
 [Colors for Matplotlib](https://blog.finxter.com/how-to-plot-matplotlibs-color-palette-and-choose-your-plot-color/)
 
+[3D wireframe plots for Matplotlib](https://matplotlib.org/stable/gallery/mplot3d/wire3d_zero_stride.html#sphx-glr-gallery-mplot3d-wire3d-zero-stride-py)
+
