@@ -68,11 +68,31 @@ For this data, the bill length and depth are measured as follows:
 <img src="https://allisonhorst.github.io/palmerpenguins/reference/figures/culmen_depth.png" style="width: 60%;">
 
 
-### Discussion of the PivotTable
+### Discussion of the Bill dimensions Table
 Overall, Adelie has the lowest Bill Length regardless of gender, and its length is the most varied among the three species. The chin chinstrap has the longest culmen length when compared within each gender. However, it is important to note that the length of the Chinstrap and Gentoo culmen do not differ much from each other.
 On the other hand, Gentoo has the lowest Bill Depth regardless of gender, and its depth is the most varied among the three species. Chinstrap and Adelie have very similar culmen depths, so the data does not provide valuable insight into which species has a greater culmen depth.
 In general, male Bill is larger in both length and depth.
 
+## Species size Table
+
+This table provides a summary of the average body mass and flipper length measurements for three different species of penguins: Adelie, Chinstrap, and Gentoo. The data presented here is crucial for understanding the physical distinctions among these species, which can be insightful for ecological and biological studies.
+
+| Species   | Body Mass (g) | Flipper Length (mm) |
+|-----------|--------------:|--------------------:|
+| Adelie    |        3706.2 |               190.1 |
+| Chinstrap |        3733.1 |               195.8 |
+| Gentoo    |        5092.4 |               217.2 |
+
+### Conclusion of the Species size Table
+
+**Species Size Variation.** Gentoo penguins are significantly larger than both Adelie and Chinstrap penguins in terms of body mass. With an average mass of 5092.4 grams, they are about 36% heavier than Adelie and 36% heavier than Chinstrap penguins.
+In terms of flipper length, Gentoos also possess longer flippers, averaging 217.2 mm, which is approximately 14% longer than those of Chinstrap penguins and 14% longer than those of Adelie penguins.
+**Adaptations and Habitat.** The larger body mass and longer flipper lengths of Gentoo penguins suggest adaptations to a different or a more demanding environment, possibly involving deeper or more prolonged diving when compared to the Adelie and Chinstrap penguins. Flipper length, in particular, can be correlated with swimming speed and agility, which might indicate Gentoos are better suited to environments requiring these traits.
+**Ecological Implications.**
+The differences in body mass and flipper length can also be indicators of dietary habits, breeding locations, and overall ecological niches occupied by these species. For instance, larger body size in Gentoos might suggest a higher intake of food or access to richer food sources, which is consistent with their known preference for different types of prey compared to the other two species.
+**Conservation and Study.** Understanding these morphological differences can be crucial for conservation efforts. Each species might respond differently to climate change impacts, such as changes in sea ice patterns and fish populations. Monitoring body mass and flipper length over time can provide valuable data on the health and viability of penguin populations.
+**Comparative Analysis.** Although Adelie and Chinstrap penguins have similar body masses, the slight difference in their flipper lengths could be significant in terms of their swimming mechanics and thermal regulation capabilities. This suggests subtle but potentially important ecological distinctions between these two closely related species.
+This data not only enriches our understanding of the physical and perhaps behavioral distinctions between these species but also underscores the importance of morphological studies in ecological and conservation research.
 
 ## Plots
 
@@ -82,4 +102,6 @@ In general, male Bill is larger in both length and depth.
 [Pandas Category Data Type](https://pbpython.com/pandas_dtypes_cat.html)
 
 [Data cleaning with Pandas](https://www.kdnuggets.com/data-cleaning-with-pandas)
+
+[Introduction to Regression Analysis](https://www.kellerbiostat.com/introregression/introduction-and-example-datasets#fig:bb-scatter-lspeed-hitdist)
 
