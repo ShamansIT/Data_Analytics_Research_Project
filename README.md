@@ -2,16 +2,15 @@
 
 ** by Serhii Spitsyn**
 
-I work at [ATU](https://www.atu.ie/).
-
-![Penguins](https://allisonhorst.github.io/palmerpenguins/reference/figures/lter_penguins.png)
+<div style="clip-path: inset(15% 0% 5% 0%); width: 100%; height: auto;">
+    <img src="https://lauranavarroviz.files.wordpress.com/2020/08/penguinsbill_plot_final.png" style="width: 80%;">
+</div>
 
 ## About the data
 Data were collected and made available by [Dr. Kristen
 Gorman](https://www.uaf.edu/cfos/people/faculty/detail/kristen-gorman.php)
 and the [Palmer Station, AntarcticaLTER](https://pallter.marine.rutgers.edu/), a member of the [Long Term
 Ecological Research Network](https://lternet.edu/).
-
 
 ## Goals
 - To accurately segment penguins into distinct clusters
@@ -101,7 +100,7 @@ This data not only enriches our understanding of the physical and perhaps behavi
 ## Body Mass, Grouped by Species and Sex
 This bar graph shows the number of individuals by penguin species on three different islands: Biscoe, Dream, and Torgersen. Each penguin species is represented by a separate column color: Adelie (blue), Chinstrap (gray), and Gentoo (green).
 
-<img src="https://github.com/ShamansIT/Data_Analytics_Research_Project/blob/main/species_sex_plot.png?raw=true" style="width: 80%;">
+<img src="https://github.com/ShamansIT/Data_Analytics_Research_Project/blob/main/images/species_sex_plot.png?raw=true" style="width: 80%;">
 
 Conclusions that can be drawn from this graph:
 
@@ -116,7 +115,7 @@ Conclusions that can be drawn from this graph:
 Obviously, more information needs to be taken into account for a complete analysis and conclusions, such as historical data, changes in island ecosystems, and possible changes in penguin populations due to natural or human influences.
 
 ## Number of Individuals by Species per Island
-<img src="https://github.com/ShamansIT/Data_Analytics_Research_Project/blob/main/species_per_Island_plot.png?raw=true" style="width: 80%;">
+<img src="https://github.com/ShamansIT/Data_Analytics_Research_Project/blob/main/images/species_per_Island_plot.png?raw=true" style="width: 80%;">
 
 ## Body Mass per Flipper Size by Species
 
@@ -124,7 +123,7 @@ In this graph, the dots represent individual penguins, and the regression lines 
 
 The graph also shows that there is a positive linear relationship between flipper length and body weight for all three species: generally, the longer the fin length, the higher the body mass. The length of the flipper seems to be a good indicator of penguin body weight.
 
-<img src="https://github.com/ShamansIT/Data_Analytics_Research_Project/blob/main/body_mass_per_flipper_size.png?raw=true" style="width: 80%;">
+<img src="https://github.com/ShamansIT/Data_Analytics_Research_Project/blob/main/images/body_mass_per_flipper_size.png?raw=true" style="width: 80%;">
 
 Based on the presented scattered graph with regression lines, several conclusions can be drawn:
 
@@ -142,7 +141,7 @@ Based on the presented scattered graph with regression lines, several conclusion
 
 For a deeper visual display, such a relationship can be represented in the form of a 3D surface graph, which will give a more dynamic idea of the relationship between different indicators. 
 
-<img src="https://github.com/ShamansIT/Data_Analytics_Research_Project/blob/main/body_mass_per_flipper_size.png?raw=true" style="width: 80%;">
+<img src="https://github.com/ShamansIT/Data_Analytics_Research_Project/blob/main/images/dependency_between_body_flipper_bill_3d_visualisation.png?raw=true" style="width: 80%;">
 
 This 3D surface graph represents the relationship between three different variables: penguin body weight (in grams), wing length (in millimeters), and beak length (also in millimeters). The colors on the surface represent different ranges of beak lengths, as shown in the color scale on the right.
 
@@ -152,7 +151,7 @@ This 3D surface graph represents the relationship between three different variab
 
 The graph you provided shows the polynomial regression between body weight and flipper length in mm. The dots represent individual observations for male (blue) and female (red) individuals, and trend lines (blue and red, respectively) indicate an overall upward or downward trend.
 
-<img src="https://github.com/ShamansIT/Data_Analytics_Research_Project/blob/main/body_mass_per_flipper_length(polynomial_regression).png?raw=true" style="width: 80%;">
+<img src="https://github.com/ShamansIT/Data_Analytics_Research_Project/blob/main/images/body_mass_per_flipper_length(polynomial_regression).png?raw=true" style="width: 80%;">
 
 Several conclusions can be drawn from the graph:
 
@@ -168,7 +167,7 @@ With the help of statistical methods, such as correlation coefficients, it would
 
 The correlation matrix quantifies the relationship among continuous variables in the dataset, which varies between -1 and 1. Values above zero denote a direct correlation, while values below zero indicate an inverse relationship. A correlation value near 1 or -1 indicates a stronger relationship.
 
-<img src="https://github.com/ShamansIT/Data_Analytics_Research_Project/blob/main/heatmap.png?raw=true" style="width: 60%;">
+<img src="https://github.com/ShamansIT/Data_Analytics_Research_Project/blob/main/images/heatmap.png?raw=true" style="width: 60%;">
 
 The correlation matrix quantifies the relationship among continuous variables in the dataset, which varies between -1 and 1. Values above zero denote a direct correlation, while values below zero indicate an inverse relationship. A correlation value near 1 or -1 indicates a stronger relationship.
 
