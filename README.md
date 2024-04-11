@@ -128,3 +128,7 @@ To conclude, the length of the flippers demonstrates the strongest correlations 
 
 [seaborn.heatmap](https://seaborn.pydata.org/generated/seaborn.heatmap.html)
 
+[Matplotlib plot layout](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.tight_layout.html)
+
+[Colors for Matplotlib](https://blog.finxter.com/how-to-plot-matplotlibs-color-palette-and-choose-your-plot-color/)
+
