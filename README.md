@@ -94,7 +94,19 @@ The differences in body mass and flipper length can also be indicators of dietar
 **Comparative Analysis.** Although Adelie and Chinstrap penguins have similar body masses, the slight difference in their flipper lengths could be significant in terms of their swimming mechanics and thermal regulation capabilities. This suggests subtle but potentially important ecological distinctions between these two closely related species.
 This data not only enriches our understanding of the physical and perhaps behavioral distinctions between these species but also underscores the importance of morphological studies in ecological and conservation research.
 
-## Plots
+# Plots
+
+## Body Mass, Grouped by Species and Sex
+<img src="https://github.com/ShamansIT/Data_Analytics_Research_Project/blob/main/species_sex_plot.png?raw=true" style="width: 80%;">
+
+## Number of individuals by species per island
+<img src="https://github.com/ShamansIT/Data_Analytics_Research_Project/blob/main/species_per_Island_plot.png?raw=true" style="width: 80%;">
+
+## Body Mass per Flipper Size
+<img src="https://github.com/ShamansIT/Data_Analytics_Research_Project/blob/main/body_mass_per_flipper_size.png?raw=true" style="width: 80%;">
+
+## Body Mass vs Flipper Length (Polynomial Regression)
+<img src="https://github.com/ShamansIT/Data_Analytics_Research_Project/blob/main/heatmap.png?raw=true" style="width: 60%;">
 
 ## Correlation Heatmap
 
