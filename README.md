@@ -140,6 +140,13 @@ Based on the presented scattered graph with regression lines, several conclusion
 
 **Exclusion of anomalies.** If there are points that differ significantly from the regression (deviation) line, it is possible that these are anomalies or measurement errors that may need additional consideration.
 
+For a deeper visual display, such a relationship can be represented in the form of a 3D surface graph, which will give a more dynamic idea of the relationship between different indicators. 
+
+<img src="https://github.com/ShamansIT/Data_Analytics_Research_Project/blob/main/body_mass_per_flipper_size.png?raw=true" style="width: 80%;">
+
+This 3D surface graph represents the relationship between three different variables: penguin body weight (in grams), wing length (in millimeters), and beak length (also in millimeters). The colors on the surface represent different ranges of beak lengths, as shown in the color scale on the right.
+
+
 
 ## Body Mass vs Flipper Length (Polynomial Regression)
 
