@@ -20,9 +20,11 @@ Ecological Research Network](https://lternet.edu/).
 
 ## Stack
 - API - Python, Flask
-- Data - Python, Jupyter Notebook, Pandas
+- Data - Python, Jupyter Notebook, Pandas, NumPy, SciPy
+- Visualization - Matplotlib, mpl_toolkits.mplot3d
+- Machine Learning - scikit-learn
 - Streamlit - Python, Pandas
-- Other tools - GitHub Projects, GitHub Actions
+- Version Control and CI/CD - GitHub Projects, GitHub Actions
 
 ## Imports
 Use pandas for the DataFrame data structure. It allows us to investigate CSV files amongst amongst other features!
@@ -97,16 +99,63 @@ This data not only enriches our understanding of the physical and perhaps behavi
 # Plots
 
 ## Body Mass, Grouped by Species and Sex
+This bar graph shows the number of individuals by penguin species on three different islands: Biscoe, Dream, and Torgersen. Each penguin species is represented by a separate column color: Adelie (blue), Chinstrap (gray), and Gentoo (green).
+
 <img src="https://github.com/ShamansIT/Data_Analytics_Research_Project/blob/main/species_sex_plot.png?raw=true" style="width: 80%;">
 
-## Number of individuals by species per island
+Conclusions that can be drawn from this graph:
+
+**Number of individuals by species.** Adelie penguins are found on all three islands, with the largest population observed on Biscoe Island. Chinstrap penguins are only found on Dream Island. Gentoo penguins are also found on Biscoe Island and in smaller numbers on Dream Island.
+
+**Distribution of species by island.** Biscoe is home to two penguin species, Adelie and Gentoo, with the population of Adelie significantly exceeding Gentoo. Dream Island is inhabited by Adelie and Chinstrap penguins, with the prevalence of Adelie. Torgersen is the only island with only one species, Adelie, and the number of individuals is the smallest.
+
+**Possible environmental impacts.** The distribution of penguins may indicate the different environmental conditions or resources available on each island. For example, the presence or absence of certain species may be related to types of nesting sites, food availability, predators, or anthropogenic impacts.
+
+**Conservation.** This data can be useful for environmental monitoring and conservation of penguins. If the graph reflects changes over time, it can indicate trends in populations that may require conservation measures.
+
+Obviously, more information needs to be taken into account for a complete analysis and conclusions, such as historical data, changes in island ecosystems, and possible changes in penguin populations due to natural or human influences.
+
+## Number of Individuals by Species per Island
 <img src="https://github.com/ShamansIT/Data_Analytics_Research_Project/blob/main/species_per_Island_plot.png?raw=true" style="width: 80%;">
 
-## Body Mass per Flipper Size
+## Body Mass per Flipper Size by Species
+
+In this graph, the dots represent individual penguins, and the regression lines show the trend between flipper length and body weight for each species. For example, you can see that penguins of the species Gentoo usually have a higher body mass at a given flipper length compared to the other two species, because their points are concentrated higher on the graph and the regression line has a steeper slope.
+
+The graph also shows that there is a positive linear relationship between flipper length and body weight for all three species: generally, the longer the fin length, the higher the body mass. The length of the flipper seems to be a good indicator of penguin body weight.
+
 <img src="https://github.com/ShamansIT/Data_Analytics_Research_Project/blob/main/body_mass_per_flipper_size.png?raw=true" style="width: 80%;">
 
+Based on the presented scattered graph with regression lines, several conclusions can be drawn:
+
+**Positive relationship between size.** There is a positive correlation between flipper length and body weight for all three penguin species. This means that usually penguins with longer flippers have a higher body mass.
+
+**Differences between species.** Each species has its own unique relationship between flipper length and body weight, which is reflected in the slope of the regression lines. Gentoo penguins, according to this graph, appear heavier at certain flipper lengths compared to Adelie and Chinstrap penguins.
+
+**Potential differentiation of species by morphology.** The regression lines do not intersect, suggesting that these morphological traits (flipper length and body weight) may aid in separating species from one another.
+
+**Scattering of data.** Some species have more dispersion of data around the regression line, which may indicate greater variability in their physical characteristics or possibly the influence of other unaccounted factors.
+
+**Potential use for health determination.** If the length of the flipper is known, a regression line can be used to predict expected body weight, which can be useful for assessing the health and well-being of penguins.
+
+**Exclusion of anomalies.** If there are points that differ significantly from the regression (deviation) line, it is possible that these are anomalies or measurement errors that may need additional consideration.
+
+
 ## Body Mass vs Flipper Length (Polynomial Regression)
-<img src="https://github.com/ShamansIT/Data_Analytics_Research_Project/blob/main/heatmap.png?raw=true" style="width: 60%;">
+
+The graph you provided shows the polynomial regression between body weight and flipper length in mm. The dots represent individual observations for male (blue) and female (red) individuals, and trend lines (blue and red, respectively) indicate an overall upward or downward trend.
+
+<img src="https://github.com/ShamansIT/Data_Analytics_Research_Project/blob/main/body_mass_per_flipper_length(polynomial_regression).png?raw=true" style="width: 80%;">
+
+Several conclusions can be drawn from the graph:
+
+**Correlation between body weight and flipper length.** There is a positive correlation between body weight and flipper length for both males and females, which means that as body weight increases, so does the length of flippers.
+
+**Difference between the sexes.** There is an obvious difference in the distribution of points between males and females. Males tend to have a higher body mass and longer flippers, indicating sexual dimorphism (differences in size or shape between the sexes).
+
+**Regression trends.** Trend lines show that the increase in flipper length in line with weight gain is not linear, and polynomial regression can better describe the relationship between these variables. Polynomial trend lines can reflect, for example, accelerated growth or decrease in size with increasing mass.
+
+With the help of statistical methods, such as correlation coefficients, it would be possible to give a more accurate estimate of the strength and form of this relationship. From this graph, it can also be deduced that when analyzing the data, it is important to take into account sex differences, since they can influence the relationships between different biological variables.
 
 ## Correlation Heatmap
 
